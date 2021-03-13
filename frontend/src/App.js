@@ -1,11 +1,12 @@
 import React from "react";
 
-function App() {
-  return (
+const App=()=> {
+    return (
     <div className="App">
-		Welcome to Electra!
+        Welcome to Electra!
     </div>
-  );
+    );
 }
 
 export default App;
+
