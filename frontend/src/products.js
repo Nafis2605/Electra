@@ -21,21 +21,21 @@ const products = [
     brand: 'Sony',
     category: 'Electronics',
     price: 75000,
-    countInStock: 7,
+    countInStock: 0,
     rating: 5.0,
     numReviews: 8,
   },
   {
     _id: '3',
-    name: 'Canon EOS 80D DSLR Camera',
-    image: '/images/Canon EOS 80D.jpg',
+    name: 'Mi LED Desk Lamp',
+    image: '/images/Mi LED Desk Lamp.jpg',
     description:
-      'Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design',
-    brand: 'Cannon',
+      "Flicker-free | Intuitive brightness and color temperature adjustment| 4 different lighting modes| Durable, minimalist design.",
+    brand: 'Xiaomi',
     category: 'Electronics',
-    price: 76500,
-    countInStock: 5,
-    rating: 3.5,
+    price: 4200,
+    countInStock: 11,
+    rating: 4,
     numReviews: 12,
   },
   {
@@ -144,17 +144,18 @@ const products = [
   },
   {
     _id: '12',
-    name: 'Mi LED Desk Lamp',
-    image: '/images/Mi LED Desk Lamp.jpg',
+    name: 'Canon EOS 80D DSLR Camera',
+    image: '/images/Canon EOS 80D.jpg',
     description:
-      "Flicker-free | Intuitive brightness and color temperature adjustment| 4 different lighting modes| Durable, minimalist design.",
-    brand: 'Xiaomi',
+      'Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design',
+    brand: 'Cannon',
     category: 'Electronics',
-    price: 4200,
-    countInStock: 11,
-    rating: 4,
+    price: 76500,
+    countInStock: 5,
+    rating: 3.5,
     numReviews: 12,
   },
+  
 ]
 
 export default products
