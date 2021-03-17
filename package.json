@@ -1,0 +1,27 @@
+{
+  "name": "electra",
+  "version": "1.0.0",
+  "description": "Electra with MERN",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "react-router-bootstrap": "^0.25.0",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nafis2605/Electra.git"
+  },
+  "author": "Fahim Arsad Nafis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nafis2605/Electra/issues"
+  },
+  "homepage": "https://github.com/Nafis2605/Electra#readme"
+}
